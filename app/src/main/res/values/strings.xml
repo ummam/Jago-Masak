@@ -8,4 +8,9 @@
     <string name="text">You haven’t started yet.\n
         Start your challenge to feel\n
         the experience.</string>
+    <string name="name2">Name :</string>
+    <string name="username2">Username</string>
+    <string name="change_password">Change Password</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
 </resources>

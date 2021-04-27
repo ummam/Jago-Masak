@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/akunFragment">
+
+    <fragment
+        android:id="@+id/akunFragment"
+        android:name="org.d3ifpt2.jagomasak.ui.AkunFragment"
+        android:label="AkunFragment" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="org.d3ifpt2.jagomasak.ui.Profile"
+        android:label="Profile" >
+        <action
+            android:id="@+id/action_profile_to_akunFragment"
+            app:destination="@id/akunFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAbout"
+        android:name="org.d3ifpt2.jagomasak.ui.FragmentAbout"
+        android:label="FragmentAbout" >
+        <action
+            android:id="@+id/action_fragmentAbout_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+</navigation>
