@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Jago Masak</string>
+    <string name="nama">Name</string>
+    <string name="username">\@username</string>
+    <string name="status">STATUS ACC</string>
+    <string name="challenge_history">Challenge History</string>
+    <string name="favorite">Favorite Recipes</string>
+    <string name="text">You haven’t started yet.\n
+        Start your challenge to feel\n
+        the experience.</string>
 </resources>
