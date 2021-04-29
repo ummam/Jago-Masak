@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
     app:startDestination="@id/akunFragment">
 
     <fragment
         android:id="@+id/akunFragment"
         android:name="org.d3ifpt2.jagomasak.ui.AkunFragment"
-        android:label="AkunFragment" />
+        android:label="AkunFragment"
+        tools:layout="@layout/fragment_akun">
+        <action
+            android:id="@+id/action_akunFragment_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
     <fragment
         android:id="@+id/profile"
         android:name="org.d3ifpt2.jagomasak.ui.Profile"
-        android:label="Profile" >
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile">
         <action
-            android:id="@+id/action_profile_to_akunFragment"
-            app:destination="@id/akunFragment" />
+            android:id="@+id/action_profile_to_fragmentAbout"
+            app:destination="@id/fragmentAbout" />
     </fragment>
     <fragment
         android:id="@+id/fragmentAbout"
         android:name="org.d3ifpt2.jagomasak.ui.FragmentAbout"
-        android:label="FragmentAbout" >
-        <action
-            android:id="@+id/action_fragmentAbout_to_profile"
-            app:destination="@id/profile" />
-    </fragment>
+        android:label="FragmentAbout"
+
+        tools:layout="@layout/fragment_about"/>
 </navigation>

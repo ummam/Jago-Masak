@@ -49,7 +49,7 @@
             android:id="@+id/button"
             android:layout_width="97dp"
             android:layout_height="32dp"
-            android:background="#9FE1BD"
+            android:background="@drawable/button_status"
             android:text="@string/status"
             android:textColor="@color/black"
             android:textSize="10sp"

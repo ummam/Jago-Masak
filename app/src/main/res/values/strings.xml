@@ -13,4 +13,12 @@
     <string name="change_password">Change Password</string>
     <string name="phone">Phone</string>
     <string name="email">Email</string>
+    <string name="copyright">Jago Masak Merupakan Aplikasi untuk bisa belajar memasak dengan
+    cara menonton dan miah resep serta bahan yang sudah disediakan oleh sang chef untuk mempermudah
+    user dalam belajar memasak.\n\n
+    Contact :\n
+    Email     : jagomasak@gmail.com\n
+    Instagram : JagoMasak.id</string>
+    <string name="setting">Setting</string>
+    <string name="image_splash">image_splash</string>
 </resources>
